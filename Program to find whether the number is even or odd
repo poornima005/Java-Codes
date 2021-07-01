@@ -1,0 +1,41 @@
+/*Progrm to find whether the number is even or odd in java*/
+
+import java.util.Scanner
+class HelloWorld 
+{
+  
+  public static void main(String[] args)
+ {
+     
+   int num;
+        
+System.out.println("Enter the number:");
+ 
+       Scanner input = new Scanner(System.in);
+    
+    num = input.nextInt();
+   
+     if(num%2==0)
+   
+     {
+      
+      System.out.println("Number is even.\n");
+    
+    }
+      
+  else
+ 
+       {
+        
+
+    System.out.println("Number is odd.\n");
+    
+    }
+     
+   input.close();
+     
+   
+         
+    }
+
+}
