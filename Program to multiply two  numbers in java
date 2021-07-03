@@ -1,0 +1,37 @@
+/*Program to multiply two numbers in java*/
+
+import java.util.Scanner;
+
+class Multiplication 
+{
+  
+  public static void main(String[] args) 
+{
+      
+  int num1,num2,num3;
+    
+    System.out.println("Enter the number:");
+  
+     Scanner input = new Scanner(System.in);
+       
+    num1 = input.nextInt();
+  
+      num2 = input.nextInt();
+ 
+     num3 = num1*num2;
+    
+    System.out.println("Multiplication of numbers:");
+     
+    System.out.println(num3);
+  
+      input.close();
+    
+    
+        input.close();
+  
+      
+     }
+
+
+}
+
