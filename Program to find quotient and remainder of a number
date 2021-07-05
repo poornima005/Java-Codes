@@ -1,0 +1,45 @@
+/*Program to find quotient and reamainder of numbers*/
+
+
+import java.util.Scanner;
+
+class QuoRem
+ {
+  
+  public static void main(String[] args)
+ 
+{
+      
+  int num1,num2,quotient,rem;
+     
+   System.out.println("Enter the numbers:");
+       
+ Scanner input = new Scanner(System.in);
+      
+  num1 = input.nextInt();
+     
+    num2 = input.nextInt();
+   
+      quotient = num1/num2;
+     
+    rem = num1%num2;
+         
+System.out.print("Quotient =");
+    
+      System.out.println(quotient);
+  
+       System.out.print("Remainder=");
+    
+      System.out.println(rem);
+    
+    input.close();
+       
+ 
+        input.close();
+        
+   
+      
+    }
+
+}
+
